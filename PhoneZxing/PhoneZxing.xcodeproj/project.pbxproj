@@ -37,7 +37,6 @@
 		AE1BA6AB1366E1D9007F2CE0 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1BA6AA1366E1D9007F2CE0 /* CoreMedia.framework */; };
 		AE1BA6AD1366E1E4007F2CE0 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1BA6AC1366E1E4007F2CE0 /* libiconv.dylib */; };
 		AE1BA6B21366E2BA007F2CE0 /* BarcodeScanner.mm in Sources */ = {isa = PBXBuildFile; fileRef = AE1BA6B11366E2BA007F2CE0 /* BarcodeScanner.mm */; };
-		AE1BA6B41366E304007F2CE0 /* barcodescanner.js in Sources */ = {isa = PBXBuildFile; fileRef = AE1BA6B31366E304007F2CE0 /* barcodescanner.js */; };
 		AE1BA6D51366EDBF007F2CE0 /* libZXingWidget.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1BA6D41366EDBF007F2CE0 /* libZXingWidget.a */; };
 /* End PBXBuildFile section */
 
@@ -112,7 +111,6 @@
 		AE1BA6AF1366E202007F2CE0 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 		AE1BA6B01366E2BA007F2CE0 /* BarcodeScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarcodeScanner.h; sourceTree = "<group>"; };
 		AE1BA6B11366E2BA007F2CE0 /* BarcodeScanner.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BarcodeScanner.mm; sourceTree = "<group>"; };
-		AE1BA6B31366E304007F2CE0 /* barcodescanner.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = barcodescanner.js; path = www/barcodescanner.js; sourceTree = "<group>"; };
 		AE1BA6C91366EDA1007F2CE0 /* ZXingWidget.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZXingWidget.xcodeproj; path = ../../../zxing/iphone/ZXingWidget/ZXingWidget.xcodeproj; sourceTree = "<group>"; };
 		AE1BA6D41366EDBF007F2CE0 /* libZXingWidget.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; name = libZXingWidget.a; path = "/Users/MaxBook/Documents/zxing/iphone/ZXingWidget/build/Debug-iphoneos/libZXingWidget.a"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
@@ -168,7 +166,6 @@
 			children = (
 				AE1BA6D41366EDBF007F2CE0 /* libZXingWidget.a */,
 				AE1BA6C91366EDA1007F2CE0 /* ZXingWidget.xcodeproj */,
-				AE1BA6B31366E304007F2CE0 /* barcodescanner.js */,
 				AE1BA6AF1366E202007F2CE0 /* AddressBookUI.framework */,
 				AE1BA6AE1366E1F6007F2CE0 /* AddressBook.framework */,
 				AE1BA6AC1366E1E4007F2CE0 /* libiconv.dylib */,
@@ -409,7 +406,6 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* PhoneZxingAppDelegate.mm in Sources */,
 				AE1BA6B21366E2BA007F2CE0 /* BarcodeScanner.mm in Sources */,
-				AE1BA6B41366E304007F2CE0 /* barcodescanner.js in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
